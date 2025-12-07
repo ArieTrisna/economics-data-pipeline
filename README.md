@@ -27,10 +27,10 @@ economics-data-pipeline/
 
 # 🧰 Tech Stack
 ---
--Python (CSV handling, ingestion logic)
--PostgreSQL (data storage)
--psycopg2 (database connection + COPY ingestion)
--python-dotenv (environment variable loading)
+- Python (CSV handling, ingestion logic)
+- PostgreSQL (data storage)
+- psycopg2 (database connection + COPY ingestion)
+- python-dotenv (environment variable loading)
 
 # 🔧 Setup & Installation
 ---
