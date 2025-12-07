@@ -2,6 +2,7 @@
 ---
 A simple, beginner-friendly data engineering pipeline that ingests Japanese economic data from CSV into a PostgreSQL database.
 This project illustrates a foundational ETL workflow using Python, SQL, and PostgreSQL, making it a great starting point for anyone learning data engineering.
+
 # 🚀 Overview
 ---
 This project performs a basic but essential ETL process:
@@ -9,6 +10,7 @@ Extract → Read a raw CSV file
 Load → Create a database table and bulk-insert data using PostgreSQL’s COPY method
 Manage schema → Drop and re-create the table on each run
 It is intentionally lightweight to help you build practical confidence with Python, databases, SQL, and pipeline organization.
+
 # 📁 Project Structure
 ---
 ```bash
@@ -22,12 +24,14 @@ economics-data-pipeline/
 ├── requirements.txt               # Python dependencies (optional)
 └── .env                           # Environment variables (not included)
 ```
+
 # 🧰 Tech Stack
 ---
-Python (CSV handling, ingestion logic)
-PostgreSQL (data storage)
-psycopg2 (database connection + COPY ingestion)
-python-dotenv (environment variable loading)
+-Python (CSV handling, ingestion logic)
+-PostgreSQL (data storage)
+-psycopg2 (database connection + COPY ingestion)
+-python-dotenv (environment variable loading)
+
 # 🔧 Setup & Installation
 ---
 1️⃣ Clone the repo
